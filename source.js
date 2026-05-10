@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Polytoria Brick Customizer
 // @namespace    polytoria-brick-customizer
-// @version      6.7
+// @version      6.7.1
 // @description  Brick Customizer
 // @match        https://polytoria.com/*
 // @match        https://www.polytoria.com/*
@@ -21,7 +21,7 @@
       color: ${COLOR} !important;
     }
 
-    .btn-outline-success {
+    .btn-outline-success:not(:has(.fa-save)) {
       --bs-btn-color: ${COLOR} !important;
       --bs-btn-border-color: ${COLOR} !important;
       --bs-btn-hover-bg: ${COLOR} !important;
