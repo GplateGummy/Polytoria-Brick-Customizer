@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Polytoria Brick Customizer
 // @namespace    polytoria-brick-customizer
-// @version      6.7.1
+// @version      6.7.2
 // @description  Brick Customizer
 // @match        https://polytoria.com/*
 // @match        https://www.polytoria.com/*
@@ -32,7 +32,7 @@
       --bs-btn-disabled-border-color: ${COLOR} !important;
     }
 
-    .text-success:not(:has(.fa-user)) {
+    .text-success:not(:has(.fa-user)):not(:has(.fa-shopping-cart)) {
       color: ${COLOR} !important;
     }
 
