@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Polytoria Brick Customizer
 // @namespace    polytoria-brick-customizer
-// @version      6.7.4
+// @version      6.7.5
 // @description  Brick Customizer
 // @match        https://polytoria.com/*
 // @match        https://www.polytoria.com/*
