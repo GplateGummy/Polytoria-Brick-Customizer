@@ -73,7 +73,7 @@
       --bs-btn-disabled-border-color: ${COLOR} !important;
     }
 
-    .text-success:not(:has(.fa-user)):not(:has(.fa-shopping-cart)):not(:has(.fa-globe)) {
+    .text-success:not(:has(.fa-circle)):not(:has(.fa-user)):not(:has(.fa-shopping-cart)):not(:has(.fa-globe)) {
       color: ${COLOR} !important;
     }
 
